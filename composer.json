@@ -1,0 +1,20 @@
+{
+  "name": "mwdelaney/wp-enable-svg",
+  "description": "Allows SVGs in the WordPress Media Library and fixes display of SVGs in the WordPress Admin",
+  "keywords": ["wordpress", "muplugin", "svg"],
+  "homepage": "https://github.com/MWDelaney/wp-enable-svg",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael W. Delaney",
+      "email": "michael@michaeldelaney.me"
+		}
+  ],
+  "type": "wordpress-muplugin",
+  "require": {
+    "php": ">=5.3.2"
+  },
+	"autoload": {
+    "psr-4": { "MWD\\EnableSVG\\": "app/" }
+  }
+}
