@@ -1,8 +1,6 @@
 <?php
 namespace MWD\EnableSVG;
-/**
- * Main Complex Titles class
- */
+
 class Init {
   /**
    * Run filters and actions
